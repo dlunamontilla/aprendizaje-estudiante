@@ -139,3 +139,15 @@ Se ejecuta mientras una condición sea verdadera, pero a diferencia de la anteri
         // condición es verdadera.
     } while( $condicion );
 }
+```
+
+
+Buscar en Internet los siguientes datos:
+
+- Bucle For
+- While
+- Do While
+
+Tanto para PHP como para JavaScript.
+
+Después de ubicar la información solicitada practicar realizando pruebas con ellos. Se explicarán en la próxima reunión virtual.
