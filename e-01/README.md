@@ -95,3 +95,61 @@ Si se quiere "tipar" la variable como _booleano_ sin inicializarla, puede escrib
 /** @type { boolean } */
 let variable;
 ```
+
+**Sintaxis C++:**
+
+```cpp
+#include <iostream>
+use namespace std;
+
+int fn(int);
+
+int main() {
+
+    bool condicion = false;
+
+    if ( condicion ) {
+        cout << "La condición se ha cumplido" << endl;
+    }
+    
+    return 0;
+}
+
+int fn(int x) {
+    return x ** 2;
+}
+```
+
+```js
+/** @type { boolean } */
+let condicion = false;
+
+if (condicion) {
+    console.log("La condición se ha cumplido");
+}
+
+/**
+ * @param { number } x
+ * @returns { number }
+ */
+function fn(x) {
+    return x ** 2;
+}
+```
+
+```php
+/** @var boolean */
+$condicion = false;
+
+if ($condicion) {
+    echo "La condición se ha cumplido");
+}
+
+/**
+ * @param int $x
+ * @return int
+ */
+function fn(int $x): int {
+    return $x ** 2;
+}
+```
